@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~TRdEEIaT#8jwXkqyO2TnkqoX-gFh4yI6V0C96bacSxZKdOehe59E",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -19,17 +19,17 @@ WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/vz98kd.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝗫𝗧𝗥𝗘𝗠𝗘-𝗫𝗠𝗗",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "❈⚥💫𝐈𝐓!𝐒 𝐌!𝐄 𝐏𝐑𝐈𝐍𝐂𝐄 𝐒𝐈𝐃👑☿❈",
+STICKER_NAME: process.env.STICKER_NAME || "07071190776",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -37,7 +37,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "528145550802",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2347071190776",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ᴘʀɪɴᴄᴇ xᴛʀᴇᴍᴇ",
 // add bot owner name
